@@ -1,0 +1,27 @@
+# Xcode
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+*.xcworkspace/*
+!*.xcworkspace/contents.xcworkspacedata
+!*.xcworkspace/xcshareddata/
+
+# User settings
+xcuserdata/
+
+# Build files
+build/
+DerivedData/
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# API Keys
+APIConfig.json
+
+# Swift Package Manager
+.swiftpm/
+Packages/
+
+# Mac files
+.DS_Store

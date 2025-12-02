@@ -35,16 +35,6 @@
 			path = KinaMovie;
 			sourceTree = "<group>";
 		};
-		E628D6D72EDD9B8100B78903 /* KinaMovieTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = KinaMovieTests;
-			sourceTree = "<group>";
-		};
-		E628D6E12EDD9B8100B78903 /* KinaMovieUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = KinaMovieUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				E628D6C72EDD9B7F00B78903 /* KinaMovie */,
-				E628D6D72EDD9B8100B78903 /* KinaMovieTests */,
-				E628D6E12EDD9B8100B78903 /* KinaMovieUITests */,
 				E628D6C62EDD9B7F00B78903 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,9 +118,6 @@
 			dependencies = (
 				E628D6D62EDD9B8100B78903 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				E628D6D72EDD9B8100B78903 /* KinaMovieTests */,
-			);
 			name = KinaMovieTests;
 			packageProductDependencies = (
 			);
@@ -152,9 +137,6 @@
 			);
 			dependencies = (
 				E628D6E02EDD9B8100B78903 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				E628D6E12EDD9B8100B78903 /* KinaMovieUITests */,
 			);
 			name = KinaMovieUITests;
 			packageProductDependencies = (

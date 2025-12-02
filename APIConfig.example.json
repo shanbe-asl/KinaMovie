@@ -1,4 +1,4 @@
 {
     "tmdbBaseURL": "https://api.themoviedb.org/3",
-    "tmdbAPIKey": "06fed04c8c12221b59b97b88950c2f5b"
+    "tmdbAPIKey": "your_api_key_here"
 }
