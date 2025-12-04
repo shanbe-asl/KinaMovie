@@ -13,21 +13,21 @@ class ViewModel {
         case notStarted
         case fetching
         case success
-        case failure(underlyingError: Error)
+        case failed(underlyingError: Error)
     }
     private(set) var homeStatus: fetchStatus = .notStarted
     private let dataFetcher = DataFetcher()
     var trendingMovies: [Title] = []
     
-    func getTitle() async {
+    func getTitles() async {
         homeStatus = .fetching
         
         do {
-            trendingMovies = try await dataFetcher.fetchTitles(for: "movie")
+            trendingMovies = try await dataFetcher.fetchTitles(for: "movie", by: "trending")
             homeStatus = .success
         } catch {
             print(error)
-            homeStatus = .failure(underlyingError: error)
+            homeStatus = .failed(underlyingError: error)
         }
     }
 }
